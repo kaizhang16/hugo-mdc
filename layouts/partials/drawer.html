@@ -4,10 +4,10 @@
     </div>
     <div class="mdc-drawer__content">
         <div class="mdc-list">
-            <a class="mdc-list-item mdc-list-item--activated" href="/posts" aria-selected="true">
+            <a class="mdc-list-item mdc-list-item--activated" href="{{ .Site.BaseURL }}posts" aria-selected="true">
                 <span class="mdc-list-item__text">文章</span>
             </a>
-            <a class="mdc-list-item" href="/notes">
+            <a class="mdc-list-item" href="{{ .Site.BaseURL }}notes">
                 <span class="mdc-list-item__text">笔记</span>
             </a>
             <a class="mdc-list-item" href="{{ .Site.Params.repoURL }}">

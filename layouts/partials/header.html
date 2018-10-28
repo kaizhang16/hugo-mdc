@@ -5,8 +5,8 @@
             <span class="mdc-top-app-bar__title">{{ .Site.Title }}</span>
         </section>
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-            <a href="/posts" class="mdc-top-app-bar__action-item" aria-label="Posts" alt="Posts">文章</a>
-            <a href="/notes" class="mdc-top-app-bar__action-item" aria-label="Notes" alt="Notes">笔记</a>
+            <a href="{{ .Site.BaseURL }}posts" class="mdc-top-app-bar__action-item" aria-label="Posts" alt="Posts">文章</a>
+            <a href="{{ .Site.BaseURL }}notes" class="mdc-top-app-bar__action-item" aria-label="Notes" alt="Notes">笔记</a>
             <a href="{{ .Site.Params.repoURL }}" class="mdc-top-app-bar__action-item" aria-label="Source Code" alt="Source Code">源码</a>
         </section>
     </div>
