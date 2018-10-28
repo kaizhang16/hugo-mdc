@@ -605,6 +605,17 @@
     "@material/theme" "^0.40.1"
     "@material/typography" "^0.40.1"
 
+"@material/card@^0.40.1":
+  version "0.40.1"
+  resolved "http://registry.npm.taobao.org/@material/card/download/@material/card-0.40.1.tgz#0b48a9a985b8f65d48f28a7913296354bcca05f8"
+  integrity sha1-C0ipqYW49l1I8op5EyljVLzKBfg=
+  dependencies:
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+
 "@material/elevation@^0.40.1":
   version "0.40.1"
   resolved "http://registry.npm.taobao.org/@material/elevation/download/@material/elevation-0.40.1.tgz#beb17eb90bde94459c41cd826c2de13f13b10b25"
@@ -612,6 +623,11 @@
   dependencies:
     "@material/animation" "^0.40.1"
     "@material/theme" "^0.40.1"
+
+"@material/layout-grid@^0.40.1":
+  version "0.40.1"
+  resolved "http://registry.npm.taobao.org/@material/layout-grid/download/@material/layout-grid-0.40.1.tgz#66bbcae895f8650ee48157a770c8cff1b314755c"
+  integrity sha1-ZrvK6JX4ZQ7kgVencMjP8bMUdVw=
 
 "@material/ripple@^0.40.1":
   version "0.40.1"
@@ -636,6 +652,20 @@
   version "0.40.1"
   resolved "http://registry.npm.taobao.org/@material/theme/download/@material/theme-0.40.1.tgz#3cc3f1bf87ee9581df03e347a1979e53ae617221"
   integrity sha1-PMPxv4fulYHfA+NHoZeeU65hciE=
+
+"@material/top-app-bar@^0.40.1":
+  version "0.40.1"
+  resolved "http://registry.npm.taobao.org/@material/top-app-bar/download/@material/top-app-bar-0.40.1.tgz#923523a803818e1e29b237b974c64c9f66746f29"
+  integrity sha1-kjUjqAOBjh4psje5dMZMn2Z0byk=
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
 
 "@material/typography@^0.40.1":
   version "0.40.1"

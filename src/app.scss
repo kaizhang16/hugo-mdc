@@ -1,6 +1,34 @@
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/card/mdc-card";
 @import "@material/button/mdc-button";
 
-.foo-button {
-    @include mdc-button-ink-color(teal);
-    @include mdc-states(teal);
+body {
+    margin: 0;
+}
+
+.summary {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.my-card {
+    margin: 48px 0;
+}
+
+.my-card__primary {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.my-card__title {
+}
+
+.my-card__subtitle {
+    @include mdc-theme-prop(color, text-secondary-on-background);
+}
+
+.my-card__secondary {
+    @include mdc-theme-prop(color, text-secondary-on-background);
+
+    padding: 0 1rem 8px 1rem;
 }

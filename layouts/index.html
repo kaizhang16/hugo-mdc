@@ -1,3 +1,30 @@
-<button class="foo-button mdc-button">
-    Button
-</button>
+{{ define "main"}}
+<main class="mdc-top-app-bar--fixed-adjust">
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop"></div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8">
+                {{ range first 10 .Pages }}
+                <section class="summary">
+                    <div class="mdc-card my-card">
+                        <div class="my-card__primary">
+                            <h2 class="my-card__title mdc-typograhpy--headline6">{{ .Title }}</h2>
+                            <h3 class="my-card__subtitle mdc-typography--subtitle2">{{ .Date.Format "2006-01-02" }}</h3>
+                        </div>
+                        <div class="my-card__secondary mdc-typography--body2">
+                            {{ .Description }}
+                        </div>
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-buttons">
+                                <button class="mdc-button mdc-card__action mdc-card__action--button">更多</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {{ end }}
+            </div>
+            <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2-desktop"></div>
+        </div>
+    </div>
+</main>
+{{ end }}
