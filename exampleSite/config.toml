@@ -2,3 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-mdc"
+
+[params]
+    repoURL = "https://github.com/kaizhang91/hugo-mdc"

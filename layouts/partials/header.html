@@ -1,11 +1,13 @@
-<header class="mdc-top-app-bar">
+<header class="mdc-top-app-bar app-bar" id="app-bar">
     <div class="mdc-top-app-bar__row">
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-            <a href="#" class="material-icons mdc-top-app-bar__navigation-icon">menu</a>
+            <button class="material-icons mdc-top-app-bar__navigation-icon">menu</button>
             <span class="mdc-top-app-bar__title">{{ .Site.Title }}</span>
         </section>
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
-            <a href="#" class="material-icons mdc-top-app-bar__action-item" aria-label="Source Code" alt="Source Code">code</a>
+            <a href="/posts" class="mdc-top-app-bar__action-item" aria-label="Posts" alt="Posts">文章</a>
+            <a href="/notes" class="mdc-top-app-bar__action-item" aria-label="Notes" alt="Notes">笔记</a>
+            <a href="{{ .Site.Params.repoURL }}" class="mdc-top-app-bar__action-item" aria-label="Source Code" alt="Source Code">源码</a>
         </section>
     </div>
 </header>

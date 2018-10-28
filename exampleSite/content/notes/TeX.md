@@ -1,8 +1,8 @@
 ---
-title: "Tex Notes"
-date: 2018-10-28T13:21:51+08:00
+title: "TeX"
+date: 2018-10-28T16:04:32+08:00
 draft: true
-description: "本文记录了 TeX 的使用笔记。"
+description: "TeX 的使用笔记。"
 ---
 
 ## 数学

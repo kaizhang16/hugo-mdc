@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    <body class="mdc-typography">
+{{- partial "head.html" . -}}
+
+<body class="mdc-typography">
+    {{- partial "drawer.html" . -}}
+    <div class="mdc-drawer-app-content">
         {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
+        <main class="main-content" id="main-content">
+            {{- block "main" . }}{{- end }}
+        </main>
         {{- partial "footer.html" . -}}
-    </body>
+    </div>
+</body>
+
 </html>

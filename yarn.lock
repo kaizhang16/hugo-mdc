@@ -616,6 +616,27 @@
     "@material/shape" "^0.40.1"
     "@material/theme" "^0.40.1"
 
+"@material/dom@^0.40.0":
+  version "0.40.0"
+  resolved "http://registry.npm.taobao.org/@material/dom/download/@material/dom-0.40.0.tgz#c0bfdf13f76546d35db7492fd6d4167721aac376"
+  integrity sha1-wL/fE/dlRtNdt0kv1tQWdyGqw3Y=
+
+"@material/drawer@^0.40.1":
+  version "0.40.1"
+  resolved "http://registry.npm.taobao.org/@material/drawer/download/@material/drawer-0.40.1.tgz#a5eeb09d270f305daa71407b37437f353814526b"
+  integrity sha1-pe6wnScPMF2qcUB7N0N/NTgUUms=
+  dependencies:
+    "@material/animation" "^0.40.1"
+    "@material/base" "^0.40.1"
+    "@material/elevation" "^0.40.1"
+    "@material/list" "^0.40.1"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
+    focus-trap "^3.0.0"
+
 "@material/elevation@^0.40.1":
   version "0.40.1"
   resolved "http://registry.npm.taobao.org/@material/elevation/download/@material/elevation-0.40.1.tgz#beb17eb90bde94459c41cd826c2de13f13b10b25"
@@ -628,6 +649,19 @@
   version "0.40.1"
   resolved "http://registry.npm.taobao.org/@material/layout-grid/download/@material/layout-grid-0.40.1.tgz#66bbcae895f8650ee48157a770c8cff1b314755c"
   integrity sha1-ZrvK6JX4ZQ7kgVencMjP8bMUdVw=
+
+"@material/list@^0.40.1":
+  version "0.40.1"
+  resolved "http://registry.npm.taobao.org/@material/list/download/@material/list-0.40.1.tgz#0734917212156443868c56fc49f06333cdba7512"
+  integrity sha1-BzSRchIVZEOGjFb8SfBjM826dRI=
+  dependencies:
+    "@material/base" "^0.40.1"
+    "@material/dom" "^0.40.0"
+    "@material/ripple" "^0.40.1"
+    "@material/rtl" "^0.40.1"
+    "@material/shape" "^0.40.1"
+    "@material/theme" "^0.40.1"
+    "@material/typography" "^0.40.1"
 
 "@material/ripple@^0.40.1":
   version "0.40.1"
@@ -2055,6 +2089,14 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
+
+focus-trap@^3.0.0:
+  version "3.0.0"
+  resolved "http://registry.npm.taobao.org/focus-trap/download/focus-trap-3.0.0.tgz#4d2ee044ae66bf7eb6ebc6c93bd7a1039481d7dc"
+  integrity sha1-TS7gRK5mv36268bJO9ehA5SB19w=
+  dependencies:
+    tabbable "^3.1.0"
+    xtend "^4.0.1"
 
 for-in@^0.1.3:
   version "0.1.8"
@@ -4463,6 +4505,11 @@ supports-color@^5.3.0, supports-color@^5.4.0, supports-color@^5.5.0:
   dependencies:
     has-flag "^3.0.0"
 
+tabbable@^3.1.0:
+  version "3.1.1"
+  resolved "http://registry.npm.taobao.org/tabbable/download/tabbable-3.1.1.tgz#db7512f28a9a1ed16e4275bd190131be9d5ad8e9"
+  integrity sha1-23US8oqaHtFuQnW9GQExvp1a2Ok=
+
 tapable@^1.0.0, tapable@^1.1.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/tapable/download/tapable-1.1.0.tgz#0d076a172e3d9ba088fd2272b2668fb8d194b78c"
@@ -4872,7 +4919,7 @@ xregexp@4.0.0:
   resolved "http://registry.npm.taobao.org/xregexp/download/xregexp-4.0.0.tgz#e698189de49dd2a18cc5687b05e17c8e43943020"
   integrity sha1-5pgYneSd0qGMxWh7BeF8jkOUMCA=
 
-xtend@^4.0.0, xtend@~4.0.1:
+xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.1"
   resolved "http://registry.npm.taobao.org/xtend/download/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=

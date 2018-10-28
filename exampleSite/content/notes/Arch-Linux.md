@@ -1,7 +1,8 @@
 ---
-title: "Setup Arch Linux"
-date: 2018-10-27T16:30:27+08:00
+title: "Arch Linux"
+date: 2018-10-28T16:05:48+08:00
 draft: true
+description: "安装配置 Arch Linux 的笔记。"
 ---
 
 ## 安装
@@ -142,3 +143,4 @@ sudo pacman -S goldendict
 yarn config set registry https://registry.npm.taobao.org --global
 yarn global add elm
 ```
+

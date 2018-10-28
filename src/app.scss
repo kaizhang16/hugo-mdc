@@ -1,10 +1,26 @@
 @import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/drawer/mdc-drawer";
+@import "@material/list/mdc-list";
 @import "@material/layout-grid/mdc-layout-grid";
 @import "@material/card/mdc-card";
 @import "@material/button/mdc-button";
 
 body {
+    height: 100vh;
     margin: 0;
+}
+
+.mdc-drawer-app-content {
+    position: relative;
+}
+
+.main-content {
+    overflow: auto;
+    height: 100%;
+}
+
+.app-bar {
+    position: absolute;
 }
 
 .summary {
