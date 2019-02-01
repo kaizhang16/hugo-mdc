@@ -21,6 +21,19 @@ body {
 
 .app-bar {
     position: absolute;
+
+    .mdc-top-app-bar__title {
+      color: inherit;
+    }
+}
+
+.mdc-drawer {
+  .mdc-drawer__title {
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
 }
 
 .summary {
