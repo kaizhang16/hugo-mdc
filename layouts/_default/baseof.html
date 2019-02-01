@@ -3,14 +3,14 @@
 {{- partial "head.html" . -}}
 
 <body class="mdc-typography">
-    {{- partial "drawer.html" . -}}
-    <div class="mdc-drawer-app-content">
-        {{- partial "header.html" . -}}
-        <main class="main-content" id="main-content">
-            {{- block "main" . }}{{- end }}
-        </main>
-        {{- partial "footer.html" . -}}
-    </div>
+  {{- partial "drawer.html" . -}}
+  <div class="mdc-drawer-app-content">
+    {{- partial "header.html" . -}}
+    <main class="main-content" id="main-content">
+      {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+  </div>
 </body>
 
 </html>
