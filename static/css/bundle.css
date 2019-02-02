@@ -2046,6 +2046,9 @@ body {
 .my-card__primary {
   padding: 1rem 1rem 0 1rem; }
 
+.my-card__title {
+  font-size: 1.8rem; }
+
 .my-card__subtitle {
   color: rgba(0, 0, 0, 0.54);
   /* @alternate */
@@ -2057,5 +2060,5 @@ body {
   color: var(--mdc-theme-text-secondary-on-background, rgba(0, 0, 0, 0.54));
   padding: 0 1rem 8px 1rem; }
 
-.my-card__content {
+.my-card__secondary-single {
   padding: 0 1rem 8px 1rem; }
