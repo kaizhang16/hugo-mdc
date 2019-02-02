@@ -2062,3 +2062,28 @@ body {
 
 .my-card__secondary-single {
   padding: 0 1rem 8px 1rem; }
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  border-collapse: collapse; }
+  table caption {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold; }
+  table thead {
+    border-bottom: 1.4px solid black; }
+    table thead tr {
+      line-height: 2.5em; }
+    table thead th {
+      text-align: left; }
+    table thead th:not(:last-child) {
+      padding-right: 2em; }
+  table tbody tr {
+    line-height: 2em; }
+    table tbody tr td:not(:last-child) {
+      padding-right: 2em; }
