@@ -5,6 +5,7 @@
 @import "@material/card/mdc-card";
 @import "@material/button/mdc-button";
 
+$line-height: 1.5em;
 $root-font-size: 16px;
 $title-font-size: 1.7rem;
 $h1-font-size: 1.6rem;
@@ -18,11 +19,13 @@ $card-padding-right: $card-padding-left;
 $card-padding-top: $card-padding-left;
 $card-padding-bottom: $card-padding-left / 2;
 $title-margin-top: 0.5rem;
+$code-padding: 1em;
 
 body {
   height: 100vh;
   margin: 0;
   font-size: $root-font-size;
+  line-height: $line-height;
 }
 
 .mdc-drawer-app-content {
@@ -95,10 +98,39 @@ body {
 }
 
 #my-disqus {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding-left: $card-padding-left;
   padding-right: $card-padding-right;
   padding-bottom: $card-padding-bottom * 1.2;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+h5 {
+  font-size: $h5-font-size;
+}
+
+h6 {
+  font-size: $h6-font-size;
+}
+
+code.hljs {
+  padding: $code-padding;
+  border-radius: 5px;
 }
 
 table {
@@ -141,28 +173,4 @@ table {
       }
     }
   }
-}
-
-h1 {
-  font-size: $h1-font-size;
-}
-
-h2 {
-  font-size: $h2-font-size;
-}
-
-h3 {
-  font-size: $h3-font-size;
-}
-
-h4 {
-  font-size: $h4-font-size;
-}
-
-h5 {
-  font-size: $h5-font-size;
-}
-
-h6 {
-  font-size: $h6-font-size;
 }
