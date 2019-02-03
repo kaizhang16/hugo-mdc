@@ -5,27 +5,41 @@
 @import "@material/card/mdc-card";
 @import "@material/button/mdc-button";
 
+$root-font-size: 16px;
+$title-font-size: 1.7rem;
+$h1-font-size: 1.6rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.4rem;
+$h4-font-size: 1.3rem;
+$h5-font-size: 1.2rem;
+$h6-font-size: 1.1rem;
+$card-padding-left: 1.8rem;
+$card-padding-right: $card-padding-left;
+$card-padding-top: $card-padding-left;
+$card-padding-bottom: $card-padding-left / 2;
+$title-margin-top: 0.5rem;
+
 body {
-    height: 100vh;
-    margin: 0;
-    font-size: 16px;
+  height: 100vh;
+  margin: 0;
+  font-size: $root-font-size;
 }
 
 .mdc-drawer-app-content {
-    position: relative;
+  position: relative;
 }
 
 .main-content {
-    overflow: auto;
-    height: 100%;
+  overflow: auto;
+  height: 100%;
 }
 
 .app-bar {
-    position: absolute;
+  position: absolute;
 
-    .mdc-top-app-bar__title {
-      color: inherit;
-    }
+  .mdc-top-app-bar__title {
+    color: inherit;
+  }
 }
 
 .mdc-drawer {
@@ -38,42 +52,52 @@ body {
 }
 
 .summary {
-    margin-top: 3em;
-    margin-bottom: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .my-card {
-    margin: 48px 0;
+  margin: 48px 0;
 }
 
 .my-card__primary {
-    padding: 2rem 2rem 0 2rem;
+  padding-left: $card-padding-left;
+  padding-right: $card-padding-right;
+  padding-top: $card-padding-top;
 }
 
 .my-card__title {
-  font-size: 1.7rem;
+  margin-top: $title-margin-top;
+  font-size: $title-font-size;
 }
 
 .my-card__subtitle {
-    @include mdc-theme-prop(color, text-secondary-on-background);
+  @include mdc-theme-prop(color, text-secondary-on-background);
 }
 
 .my-card__secondary {
-    @include mdc-theme-prop(color, text-secondary-on-background);
+  @include mdc-theme-prop(color, text-secondary-on-background);
 
-    padding: 0 2rem 1rem 2rem;
+  padding-left: $card-padding-left;
+  padding-right: $card-padding-right;
+  padding-bottom: $card-padding-bottom;
 }
 
 .my-card__secondary-single {
-  padding: 0 2rem 1rem 2rem;
+  padding-left: $card-padding-left;
+  padding-right: $card-padding-right;
 }
 
 .my-card__actions {
-  padding: 0 1.3rem 1rem 1.3rem;
+  padding-left: $card-padding-left * 0.6;
+  padding-right: $card-padding-right * 0.6;
+  padding-bottom: $card-padding-bottom;
 }
 
 #my-disqus {
-  padding: 0 2rem 2.2rem 2rem;
+  padding-left: $card-padding-left;
+  padding-right: $card-padding-right;
+  padding-bottom: $card-padding-bottom * 1.2;
 }
 
 table {
@@ -119,25 +143,25 @@ table {
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: $h1-font-size;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: $h2-font-size;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: $h3-font-size;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: $h4-font-size;
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: $h5-font-size;
 }
 
 h6 {
-  font-size: 1.1rem;
+  font-size: $h6-font-size;
 }
