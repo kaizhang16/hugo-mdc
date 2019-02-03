@@ -2019,7 +2019,8 @@ svg.mdc-button__icon {
 body {
   height: 100vh;
   margin: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 1.5em; }
 
 .mdc-drawer-app-content {
   position: relative; }
@@ -2076,10 +2077,32 @@ body {
   padding-bottom: 0.9rem; }
 
 #my-disqus {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
   padding-bottom: 1.08rem; }
+
+h1 {
+  font-size: 1.6rem; }
+
+h2 {
+  font-size: 1.5rem; }
+
+h3 {
+  font-size: 1.4rem; }
+
+h4 {
+  font-size: 1.3rem; }
+
+h5 {
+  font-size: 1.2rem; }
+
+h6 {
+  font-size: 1.1rem; }
+
+code.hljs {
+  padding: 1em;
+  border-radius: 5px; }
 
 table {
   margin-left: auto;
@@ -2105,21 +2128,3 @@ table {
     line-height: 2em; }
     table tbody tr td:not(:last-child) {
       padding-right: 2em; }
-
-h1 {
-  font-size: 1.6rem; }
-
-h2 {
-  font-size: 1.5rem; }
-
-h3 {
-  font-size: 1.4rem; }
-
-h4 {
-  font-size: 1.3rem; }
-
-h5 {
-  font-size: 1.2rem; }
-
-h6 {
-  font-size: 1.1rem; }
