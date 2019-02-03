@@ -8,6 +8,7 @@
 body {
     height: 100vh;
     margin: 0;
+    font-size: 16px;
 }
 
 .mdc-drawer-app-content {
@@ -46,7 +47,7 @@ body {
 }
 
 .my-card__primary {
-    padding: 1rem 1rem 0 1rem;
+    padding: 2rem 2rem 0 2rem;
 }
 
 .my-card__title {
@@ -60,15 +61,19 @@ body {
 .my-card__secondary {
     @include mdc-theme-prop(color, text-secondary-on-background);
 
-    padding: 0 1rem 8px 1rem;
+    padding: 0 2rem 1rem 2rem;
 }
 
 .my-card__secondary-single {
-  padding: 0 1rem 8px 1rem;
+  padding: 0 2rem 1rem 2rem;
+}
+
+.my-card__actions {
+  padding: 0 1.3rem 1rem 1.3rem;
 }
 
 #my-disqus {
-  padding: 0 1rem 1.2rem 1rem;
+  padding: 0 2rem 2.2rem 2rem;
 }
 
 table {

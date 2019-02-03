@@ -2018,7 +2018,8 @@ svg.mdc-button__icon {
 
 body {
   height: 100vh;
-  margin: 0; }
+  margin: 0;
+  font-size: 16px; }
 
 .mdc-drawer-app-content {
   position: relative; }
@@ -2044,7 +2045,7 @@ body {
   margin: 48px 0; }
 
 .my-card__primary {
-  padding: 1rem 1rem 0 1rem; }
+  padding: 2rem 2rem 0 2rem; }
 
 .my-card__title {
   font-size: 1.7rem; }
@@ -2058,13 +2059,16 @@ body {
   color: rgba(0, 0, 0, 0.54);
   /* @alternate */
   color: var(--mdc-theme-text-secondary-on-background, rgba(0, 0, 0, 0.54));
-  padding: 0 1rem 8px 1rem; }
+  padding: 0 2rem 1rem 2rem; }
 
 .my-card__secondary-single {
-  padding: 0 1rem 8px 1rem; }
+  padding: 0 2rem 1rem 2rem; }
+
+.my-card__actions {
+  padding: 0 1.3rem 1rem 1.3rem; }
 
 #my-disqus {
-  padding: 0 1rem 1.2rem 1rem; }
+  padding: 0 2rem 2.2rem 2rem; }
 
 table {
   margin-left: auto;
