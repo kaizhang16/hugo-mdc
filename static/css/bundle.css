@@ -2047,7 +2047,7 @@ body {
   padding: 1rem 1rem 0 1rem; }
 
 .my-card__title {
-  font-size: 1.8rem; }
+  font-size: 1.7rem; }
 
 .my-card__subtitle {
   color: rgba(0, 0, 0, 0.54);
@@ -2064,7 +2064,7 @@ body {
   padding: 0 1rem 8px 1rem; }
 
 #my-disqus {
-  padding: 0 1rem 1.5rem 1rem; }
+  padding: 0 1rem 1.2rem 1rem; }
 
 table {
   margin-left: auto;
@@ -2090,3 +2090,21 @@ table {
     line-height: 2em; }
     table tbody tr td:not(:last-child) {
       padding-right: 2em; }
+
+h1 {
+  font-size: 1.6rem; }
+
+h2 {
+  font-size: 1.5rem; }
+
+h3 {
+  font-size: 1.4rem; }
+
+h4 {
+  font-size: 1.3rem; }
+
+h5 {
+  font-size: 1.2rem; }
+
+h6 {
+  font-size: 1.1rem; }
